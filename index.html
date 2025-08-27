@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Equation Flashcards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Line Equation Practice</h1>
+            <p class="subtitle">Is the point on the line?</p>
+        </header>
+
+        <main>
+            <div class="flashcard">
+                <div class="problem-section">
+                    <div class="equation">
+                        <span class="label">Line Equation:</span>
+                        <span id="equation-display" class="equation-text">y = 2x + 1</span>
+                    </div>
+                    
+                    <div class="point">
+                        <span class="label">Point:</span>
+                        <span id="point-display" class="point-text">(3, 7)</span>
+                    </div>
+                </div>
+
+                <div class="answer-section">
+                    <button id="reveal-btn" class="reveal-button">Click to Reveal Answer</button>
+                    
+                    <div id="answer-box" class="answer-box hidden">
+                        <div class="answer-content">
+                            <div id="answer-result" class="result"></div>
+                            <div id="answer-explanation" class="explanation"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="new-problem-btn" class="control-button">New Problem</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
