@@ -139,6 +139,14 @@ h1 {
     line-height: 1.6;
 }
 
+#graph-canvas {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+}
+
 .controls {
     display: flex;
     justify-content: center;
